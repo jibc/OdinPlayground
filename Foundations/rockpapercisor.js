@@ -17,11 +17,11 @@ function playerSelection(){
    let userChoice = prompt("What is your choice ? Rock, Paper or Cisor ?").toLowerCase();
 
     if (userChoice === "rock") {
-    userChoice == "rock"; 
+    userChoice = "rock"; 
     } else if ( userChoice === "paper") {
-    userChoice == "paper"; 
+    userChoice = "paper"; 
     } else if ( userChoice === "cisor") {
-    userChoice == "cisor"; 
+    userChoice = "cisor"; 
     }
 
     return userChoice;

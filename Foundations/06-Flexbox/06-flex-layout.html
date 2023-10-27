@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.left-links {
+  display: flex;
+}
+.left-link li {
+  padding-left: 8px;
+}
+.right-links {
+  display: flex;
+}
+.right-links li {
+  padding-left: 8px;
+}
+.content {
+  display: flex;
+  padding-top: 20vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  width: 100vw;
+
+  margin-top: auto;
+  background-color:#eeeeee;
+}
+a {
+  color: grey;
+}
+a:link,
+a:visited  { 
+  text-decoration: none; 
+}
+
+a:hover,
+a:active { 
+  text-decoration: none;
+}
+li {
+  padding-right: 8px;
+}
+ul {
+  display: flex;
+}
+.right-links {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <ul class="left-links">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Store</a></li>
+    </ul>
+    <ul class="right-links">
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <img src="./logo.png" alt="Project logo. Represents odin with the project name.">
+    <div class="input">
+      <input type="text">
+    </div>
+    <div class="buttons">
+      <button>Do the thing!</button>
+      <button>Do the other thing!</button>
+    </div>
+  </div>
+  <div class="footer">
+    <ul class="left-links">
+      <li><a href="#">Advertising</a></li>
+      <li><a href="#">Business</a></li>
+    </ul>
+    <ul class="right-links">
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+    </ul>
+  </div>
+</body>
+</html>

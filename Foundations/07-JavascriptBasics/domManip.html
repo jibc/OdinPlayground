@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    const container = document.querySelector("body");
+    const redPara = document.createElement("p");
+    redPara.textContent = "Hey I'm red!";
+    redPara.style.color = "red";
+    container.appendChild(redPara);
+    const blueHeader = document.createElement("h3");
+    blueHeader.textContent = "I'm a blue h3!";
+    blueHeader.style.color = "blue";
+    container.appendChild(blueHeader);
+    const division = document.createElement("div");
+    division.style.border = "2px outset   black";
+    division.style.backgroundColor = "pink";
+    const headerDiv = document.createElement("div");
+    headerDiv.textContent = "I'm a div";
+    division.appendChild(headerDiv);
+    const paraDiv = document.createElement("p");
+    paraDiv.textContent = "ME TOO!";
+    division.appendChild(paraDiv);
+    container.appendChild(division);
+
+  </script>
+</body>
+</html>
